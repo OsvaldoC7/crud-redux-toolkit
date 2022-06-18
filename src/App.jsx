@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import TodosList from './components/todos/TodosList'
 import AddUser from './components/users/AddUser'
 import EditUser from './components/users/EditUser'
 import UserList from './components/users/UserList'
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<UserList />} />
         <Route path='/add-user' element={<AddUser />} />
         <Route path='/edit-user/:id' element={<EditUser />} />
+        <Route path='/todos-list' element={<TodosList />} />
       </Routes>
     </div>
   )
