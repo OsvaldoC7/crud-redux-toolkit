@@ -11,11 +11,9 @@ import ReactDOM from 'react-dom/client'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ApiProvider api={apiSlice}>
-        <Provider store={store}>
-          <App />
-        </Provider>
-      </ApiProvider>
+      <Provider store={store}>
+        <App />
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 )
