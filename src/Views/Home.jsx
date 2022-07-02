@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../components/common/Button'
 
-export default function Home() {
+export default function Home () {
   return (
     <div className='grid grid-cols-2'>
       <div className='flex flex-col items-center'>

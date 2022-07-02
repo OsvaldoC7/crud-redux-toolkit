@@ -4,7 +4,7 @@ import Button from '../common/Button'
 import React from 'react'
 import { deleteUser } from '../../features/users/usersSlice'
 
-export default function UserList() {
+export default function UserList () {
   const users = useSelector(store => store.users)
   const dispatch = useDispatch()
 

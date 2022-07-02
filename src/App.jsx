@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { React } from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
 import AddTodo from './components/todos/AddTodo'
 import TodosList from './components/todos/TodosList'
@@ -7,8 +7,7 @@ import EditUser from './components/users/EditUser'
 import UserList from './components/users/UserList'
 import Home from './Views/Home'
 
-function App() {
-
+function App () {
   return (
     <div className='container mx-auto px-2 max-w-5xl pt-10 md:pt-32'>
       <Link to='/'>

@@ -24,7 +24,7 @@ export const apiSlice = createApi({
       query: todo => ({
         url: `todos/${todo.id}`,
         method: 'PATCH',
-        body: todo,
+        body: todo
       }),
       invalidatesTags: ['Todos']
     }),
